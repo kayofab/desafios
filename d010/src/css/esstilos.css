@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
+body {
+    background-color: #84E1AD;
+    font-family: 'fira sans', sans-serif;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #37C777);
+    color: white;
+}
+
+.principal {
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    font-size: 26px;
+}
+
+nav {
+    background-color: #1A5C38;
+    margin: 0%;
+}
+
+a {
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+}
+
+.menu {
+    color: white;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+main { 
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.secundario {
+    color: #227A49;
+    background-image: linear-gradient(to right, #37c77836, #84e1ac2a);
+    font-weight: bolder;
+}
+/*
+div .video {
+    position: relative;
+    height: 0px;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div .video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+*/
+.final {
+    color: white;
+}
+
+p { 
+    text-align: justify;
+    padding: 10px;
+}
+
+#fim {
+    background-color: #84E1AD;
+    padding: 0px;
+    border-radius: 10px 10px;
+    text-align: justify;
+}
+
+#fim > h1 {
+    padding: 10px 5px;
+    height: 30px;
+    background-color: #1A5C38;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    list-style: none;
+    columns: 2;
+}
+
+#rodape {
+    background-color: #1A5C38;
+    margin: 0px;
+    padding: 0px;
+}
+
+#rodape > p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
