@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    height: 800px;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+.normal {
+    background-color: white;
+}
+
+.imagem {
+    background-color: darkslategray;
+    background-image: url('../imagens/background001.jpg');
+}
+
+section{
+    position: relative;
+}
+
+section > p {
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
