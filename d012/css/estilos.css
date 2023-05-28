@@ -3,30 +3,58 @@
     padding: 0px;
 }
 
-section {
-    height: 800px;
+body {
+    min-height: 100vh;
+    background-color: darkgrey;
 }
 
-header{
+header {
     background-color: black;
     color: white;
+    text-align: center;
 }
-.normal {
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal {
     background-color: white;
 }
 
-.imagem {
-    background-color: darkslategray;
-    background-image: url('../imagens/background001.jpg');
+section.imagem {
+    background-color: rgb(31, 30, 30);
+    color: white;
 }
 
-section{
-    position: relative;
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.192);
 }
 
-section > p {
-    font-size: 40px;
-    position: absolute;
-    left: 40px;
-    top: 30px;
+footer {
+    background-color: black;
+    color: white;
 }
